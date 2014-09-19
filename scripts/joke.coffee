@@ -7,12 +7,12 @@
 #   ネタ/ジョーク系のbot全般
 
 # require
-cheerio = require 'cheerio'
-request = require 'request'
-cronJob = require('cron').CronJob
+#cheerio = require 'cheerio'
+#request = require 'request'
+#cronJob = require('cron').CronJob
 
 # init
-xx_randam_imgs = []
+#xx_randam_imgs = []
 
 # なん...だと...
 module.exports = (robot) ->
