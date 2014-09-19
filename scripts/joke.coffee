@@ -17,4 +17,4 @@
 # なん...だと...
 module.exports = (robot) ->
   robot.hear /なん\.*だと/i, (msg) ->
-    msg.send "http://hubotimg.web.fc2.com/images/joke/img_BLEACH1152.jpg"
+    msg.send "http://hubotimg.web.fc2.com/media/joke/img_BLEACH1152.jpg"
