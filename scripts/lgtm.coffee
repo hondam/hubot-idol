@@ -14,7 +14,7 @@
 #   Hubot, Hondam
 
 lgtm_randam_imgs = [
-  "https://files.slack.com/files-pri/T02DE29BF-F03A302T4/voxdlx2.gif"
+  "https://files.slack.com/files-pri/T02DE29BF-F03D5V01M/voxdlx2.gif"
 ]
 
 module.exports = (robot) ->
