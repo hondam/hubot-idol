@@ -14,5 +14,5 @@ failed_comments = [
   'テストが落ちたみたい。あきらめたらそこで試合終了だよ'
 ]
 module.exports = (robot) ->
-  robot.hear /No\ tests\:/, (msg) ->
-    msg.send _.shuffle(failed_comments)[0] 
+  robot.hear /No\ tests/, (msg) ->
+    msg.send "@hondam " + _.shuffle(failed_comments)[0] 
