@@ -1,19 +1,15 @@
 # Description:
-#   HOGE
-#
-# Dependencies:
-#   HOGE
-#
-# Configuration:
-#   HUBOT_HOGE = <hoge>
+#   東京女子流のMVのURLを返す
 #
 # Commands:
-#   hubot hoge - HOGEと返す
+#   hubot tgs (オススメ|おすすめ|動画) 
 #
 # Author:
 #   Hubot, Hondam
 
-youtube_randam_movies = [
+_ = require('lodash');
+
+movies = [
   # Say long goodbye
   "https://www.youtube.com/watch?v=elCYCl98Dro",
   # ヒマワリと星屑 -English Version-
@@ -56,4 +52,4 @@ module.exports = (robot) ->
 
   # 発言に反応
   robot.respond /tgs (オススメ|おすすめ|動画)/i, (msg) ->
-    msg.send youtube_randam_movies[Math.floor(Math.random() * youtube_randam_movies.length)] 
+    msg.send _.shuffle(movies)[0]
