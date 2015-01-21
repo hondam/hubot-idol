@@ -7,7 +7,3 @@ deployment:
     branch: master
     heroku:
       appname: polar-chamber-3011
-
-test:
-  override:
-    - ./dummy_test_script.sh
