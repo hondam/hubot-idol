@@ -10,7 +10,7 @@
 _ = require('lodash');
 
 movies = [
-  "https://www.youtube.com/watch?v=x8H2-YZUw40"
+  "http://vimeo.com/93625826"
 ]
 
 module.exports = (robot) ->
