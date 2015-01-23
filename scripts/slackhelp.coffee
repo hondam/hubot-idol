@@ -22,6 +22,3 @@ Command List.
 module.exports = (robot) ->
   robot.respond /slackhelp$/i, (msg) ->
     msg.send helpLinks
-
-  robot.hear /slackhelp$/i, (msg) ->
-    msg.send helpLinks
