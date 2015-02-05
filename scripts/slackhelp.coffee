@@ -16,7 +16,7 @@ Command List.
 ・べーやま slackhelp --- このヘルプを表示する
 ・べーやま tgs (オススメ|おすすめ|動画) --- 東京女子流のMVをランダムで表示
 ・べーやま zoi --- 今日も一日がんばるぞい！
-・べーやま lgmt --- Looks good to me
+・べーやま lgtm --- Looks good to me
 ・べーやま ping --- PONG！
 ```
   """
