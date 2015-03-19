@@ -10,6 +10,8 @@
 _ = require('lodash');
 
 movies = [
+  # Stay with me
+  "https://www.youtube.com/watch?v=aQpWT5T5mqg",
   # Say long goodbye
   "https://www.youtube.com/watch?v=elCYCl98Dro",
   # ヒマワリと星屑 -English Version-
