@@ -19,7 +19,7 @@ module.exports = (robot) ->
     request url, (err, res) ->
       $ = cheerio.load res.body
       count = 0
-      message = ""
+      message = "リトルノア攻略wiki COOP募集掲示板/エリア8から直近の3件を表示します。\r\n\r\n"
       $('.comment').each ->
         body = _.trim($(this).children('.comment-body').text().replace(/[\n\r]/g," "))
         date = $(this).children('.comment-header').children('.comment-create-date').text()
