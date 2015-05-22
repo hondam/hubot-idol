@@ -19,13 +19,14 @@ module.exports = (robot) ->
     request url, (err, res) ->
       $ = cheerio.load res.body
       count = 0
-      message = ""
+      message = "```\r\n"
       $('.comment').each ->
         body = _.trim($(this).children('.comment-body').text().replace(/[\n\r]/g," "))
         date = $(this).children('.comment-header').children('.comment-create-date').text()
         count++
-        message += date + " " + body
+        message += "[" + date + "] " + body
         if count > 2
+          message += "\r\n```"
           return false
         else
           message += "\r\n"
