@@ -18,7 +18,7 @@ Command List.
 ・べーやま zoi --- 今日も一日がんばるぞい！
 ・べーやま lgtm --- Looks good to me
 ・べーやま ping --- PONG！
-・べーやま (はつめ|ハツメ|hatume|hatsume) --- リトルノア攻略wiki COOP募集掲示板/エリア8から直近の3件を表示
+・べーやま (はつめ|ハツメ|hatume|hatsume) (1-9)--- リトルノア攻略wiki COOP募集掲示板から直近の3件を表示。エリア指定可能
 ```
   """
 
