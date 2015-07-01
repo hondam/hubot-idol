@@ -12,6 +12,7 @@ _ = require('lodash');
 base_url = "https://www.youtube.com/watch?v="
 
 movies = [
+  "G8oOYAAKSlc", # Never ever
   "aQpWT5T5mqg", # Stay with me
   "elCYCl98Dro", # Say long goodbye
   "RQjit4N09js", # ヒマワリと星屑 -English Version-

@@ -14,7 +14,7 @@ _ = require 'underscore.string'
 module.exports = (robot) ->
 
   # 発言に反応
-  robot.respond /(はつめ|ハツメ|hatume|hatsume)(\ ([1-9])){0,1}/i, (msg) ->
+  robot.respond /(はつめ|ハツメ|hatume|hatsume)(\ (10|[1-9]))/i, (msg) ->
     area_num = 8
     if msg.match[3]?
       area_num = msg.match[3]
@@ -29,7 +29,8 @@ module.exports = (robot) ->
       "http://wiki.famitsu.com/littlenoah/COOP%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF/%E3%82%A8%E3%83%AA%E3%82%A26",
       "http://wiki.famitsu.com/littlenoah/COOP%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF/%E3%82%A8%E3%83%AA%E3%82%A27",
       "http://wiki.famitsu.com/littlenoah/COOP%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF/%E3%82%A8%E3%83%AA%E3%82%A28",
-      "http://wiki.famitsu.com/littlenoah/COOP%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF/%E3%82%A8%E3%83%AA%E3%82%A29"
+      "http://wiki.famitsu.com/littlenoah/COOP%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF/%E3%82%A8%E3%83%AA%E3%82%A29",
+      "http://wiki.famitsu.com/littlenoah/COOP%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF/%E3%82%A8%E3%83%AA%E3%82%A210"
     ]
     url = urls[area_num]
     request url, (err, res) ->
