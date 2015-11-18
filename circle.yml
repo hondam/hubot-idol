@@ -6,4 +6,4 @@ deployment:
   production:
     branch: master
     heroku:
-      appname: polar-chamber-3011
+      appname: hubot-idol
